@@ -1,0 +1,47 @@
+pwd – Exibe o diretório atual.
+
+mkdir curso-git – Cria um diretório chamado "curso-git".
+
+cd curso-git – Acessa o diretório "curso-git".
+
+git --version – Exibe a versão do Git.
+
+git init --initial-branch=main – Inicializa um repositório Git com o branch principal chamado "main".
+
+git config user.name "João Vitor Santos" – Configura o nome do usuário no Git.
+
+git config user.email "jvitorsantos682@gmail.com" – Configura o e-mail do usuário no Git.
+
+git config --list – Exibe as configurações do Git.
+
+git status – Exibe o status atual do repositório (arquivos não rastreados, modificações, etc).
+
+git add meu-primeiro-arquivo.txt – Adiciona o arquivo "meu-primeiro-arquivo.txt" para ser rastreado.
+
+git commit -m "Meu primeiro commit" – Realiza o commit com uma mensagem.
+
+git add meu-primeiro-arquivo.txt – Adiciona novamente o arquivo após modificação.
+
+git commit -m "Meu segundo commit" – Realiza o commit com a segunda modificação.
+
+git log --oneline – Exibe o log de commits de forma resumida.
+
+git add . – Adiciona todos os arquivos para o próximo commit.
+
+git commit -m "Adicionando meu segundo arquivo" – Realiza o commit com a mensagem especificada.
+
+git log --oneline – Exibe novamente o log de commits de forma resumida.
+
+git restore --staged meu-segundo-arquivo.txt – Remove o arquivo da área de stage.
+
+git commit -m "Alterado o nome do arquivo" – Realiza um commit após renomear o arquivo.
+
+git restore --staged meu-segundo-arquivo.txt – Remove novamente o arquivo da área de stage.
+
+git add . – Adiciona todos os arquivos para o próximo commit.
+
+git commit -m "Adicionando meu terceiro arquivo" – Realiza o commit com a adição do terceiro arquivo.
+
+git remote add origin https://github.com/Jotavitor12/curso-git-ead-ifrn.git – Configura o repositório remoto no GitHub.
+
+git push -u origin main – Envia os commits para o repositório remoto no GitHub.
